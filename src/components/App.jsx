@@ -26,9 +26,9 @@ export function App() {
 
   const HandleIncrement = name => {
 
-    if (name === 'good') { setGood(prew => prew + 1); }
-    if (name === 'bad') { setBad(prew => prew + 1); }
-    if (name === 'neutral') { setNeutral(prew => prew + 1); }
+    if (name === 'good') { setGood(prev => prev + 1); }
+    if (name === 'bad') { setBad(prev => prev + 1); }
+    if (name === 'neutral') { setNeutral(prev => prev + 1); }
   };
 
     return (
